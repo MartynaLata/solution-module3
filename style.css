@@ -1,0 +1,135 @@
+
+
+body{
+	font-size: 16px;
+	color: black;
+	background-color: #c6c6c5;
+	font-family: Times, serif;
+}
+
+header {
+	border: black 0px solid;
+	margin: 0px;
+}
+
+#header-nav {
+	background-color: grey;
+	border-radius: 0;
+	border: 1px black solid; 
+	height: auto;
+	margin: 0px;
+
+}
+
+.navbar-brand {
+	height: 60px;
+	padding: 10px;
+	margin: 0px;
+	align-content: left;
+}
+
+.navbar-brand h1 {
+	font-family: Times, serif;
+	color: black;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	line-height: 0.75;
+	text-align: left;
+	margin-top: 10px;
+}
+
+.navbar-toggle {
+	margin-top: 10px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.container2 {
+	text-align: center;
+	border: grey solid 2px;
+	margin-bottom: 15px;
+	background-color: grey;
+	padding: 15px;
+}
+
+h2 {
+	margin-bottom: 20px;
+}
+
+.food {
+	border: black solid 0px;
+}
+
+p {
+
+	text-align: left;
+}
+
+#nav-list {
+	margin: 0px;
+	padding-top: 0px;
+	background-color: #ffffff;
+
+}
+
+#nav-list a {
+	color: black;
+	text-align: center;
+	border: 1px solid black;
+	margin: 0px;
+	
+
+}
+
+#nav-list a:hover {
+	background: #515156
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid black;
+}
+
+
+.navbar-collapse {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+/***Large Devices***/
+@media (min-width: 1200px) {
+
+	.navbar-brand a {
+		text-align: left;
+	}
+}
+
+/***Medium Devices***/
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	
+}
+
+/***Small Devices***/
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	
+}
+/***Extra Small Devices***/
+@media (max-width: 767px) {
+	
+	#collapsable-nav a {
+		font-size: 1.1em;
+	}
+
+	#collapsable-nav a span {
+		font-size: 10px;
+	}
+	
+	.container2 {
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+}
