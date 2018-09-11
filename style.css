@@ -35,8 +35,8 @@ header {
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #222;
 	line-height: 0.75;
-	text-align: left;
 	margin-top: 10px;
+	margin-left: 15px;
 }
 
 .navbar-toggle {
